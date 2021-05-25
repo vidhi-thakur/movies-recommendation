@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #f4b41a;
+    --secondary-color: #143d59;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  h1 {
+    margin: 8rem 1rem 0px 1rem;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .App {
+      max-width: 100%;
+    }
+  }
+  
+  #body-app {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .list-item {
+    list-style: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .btn-input {
+    border: 1px solid white;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
