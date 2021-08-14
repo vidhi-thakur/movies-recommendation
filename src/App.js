@@ -3,25 +3,36 @@ import React, { useState } from "react";
 
 export default function App() {
   var fiction = {
-    "Harry Potter movies": "4/5",
-    "The Lord of the Rings": "3/5"
+    "Harry Potter and the Philosopher's Stone": "5/5",
+    "Harry Potter and the Half-Blood Prince": "5/5",
+    "Harry Potter and the Deathly Hallows – Part 2": "5/5",
+    "The Lord of the Rings": "3/5",
+    "Clash Of The Titans": "4/5",
+    "The Chronicles Of Narnia: Prince Caspian": "5/5",
   };
 
   var array1 = Object.keys(fiction);
 
   var animation = {
     "Finding nemo": "4/5",
-    "The Smurfs": "3/5"
+    "The Smurfs": "3/5",
+    "Toy Story 2": "3/5",
+    "Toy Story 4": "4/5",
+    "Spider-Man: Into the Spider-Verse": "4/5",
+    "Zootopia": "3/5"
   };
 
   var array2 = Object.keys(animation);
 
-  var comedy = {
-    Golmaal: "4.5/5",
-    Dhol: "3/5"
+  var superhero = {
+    "Wonder Woman": "5/5",
+    "Avengers: Endgame": "4/5",
+    "Hellboy 2: The Golden Army": "3/5",
+    "Thor: Ragnarok": "4/5",
+    "Guardians of the Galaxy": "4/5",
   };
 
-  var array3 = Object.keys(comedy);
+  var array3 = Object.keys(superhero);
   var [array, setArray] = useState(array1);
 
   function onClickHandler1() {
@@ -59,7 +70,7 @@ export default function App() {
         </button>
 
         <button onClick={onClickHandler3} className="btn-input">
-          comedy
+          superhero
         </button>
       </div>
 
@@ -69,7 +80,7 @@ export default function App() {
           if (meaning === undefined) {
             meaning = animation[movie];
             if (meaning === undefined) {
-              meaning = comedy[movie];
+              meaning = superhero[movie];
             }
           }
           return (
