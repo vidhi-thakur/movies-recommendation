@@ -17,7 +17,7 @@ export default function App() {
     "Finding nemo": ["4/5", "When Nemo, a young clownfish, is unexpectedly carried far from home, his father and Dory embark on a journey to find Nemo."],
     "The Smurfs": ["3/5", "When evil Gargamel tries to capture them, the Smurfs flee their woodland home, pass through a magic portal and find themselves stranded in New York."],
     "Toy Story 2": ["3/5", "When a greedy toy collector kidnaps Woody, Buzz and his friends set out to rescue him."],
-    "Toy Story 4": "4/5",
+    "Toy Story 4": ["4/5", "When a new toy called Forky joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy."],
     "Spider-Man: Into the Spider-Verse": ["4/5", "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities."],
     "Zootopia": ["3/5", "Judy Hopps becomes the first official bunny cop on the police force. When 14 predator animals go missing, Judy immediately takes the case."]
   };
